@@ -87,7 +87,7 @@ export default function Home() {
               <AiFillYoutube />
             </div> */}
             <div className="mx-auto  from-teal-500 rounded-full w-80 h-80 dark:shadow-[80px_0px_0px_8px_rgba(255,255,0)] relative overflow-hidden mt-5 md:h-93 md:w-93">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={deved} alt="pic-peem" layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -157,7 +157,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Work Experience</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a web developer, I've done
+              Since the beginning of my journey as a web developer, I`ve done
               remote work for
               <span className="text-teal-500"> agencies </span>
               develop for <span className="text-teal-500">organizations </span>
@@ -179,6 +179,7 @@ export default function Home() {
                     // width={100}
                     // height={100}
                     // layout="fill"
+                    alt={'pic 1'}
                   />
                 </div>
                 {/* <img
@@ -212,6 +213,7 @@ export default function Home() {
                     // width={100}
                     // height={100}
                     // layout="fill"
+                    alt={'pic 2'}
                   />
                 </div>
                 {/* <img
@@ -249,6 +251,7 @@ export default function Home() {
                     // width={100}
                     // height={100}
                     // layout="fill"
+                    alt={'pic 3'}
                   />
                 </div>
                 {/* <img
