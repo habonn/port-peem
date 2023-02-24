@@ -2,9 +2,10 @@ import Head from "next/head";
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
+import { Link } from "react-scroll";
 import deved from "../public/avatar.png";
-import code from "../public/code.png";
-import design from "../public/design.png";
+// import code from "../public/code.png";
+// import design from "../public/design.png";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
 // import web1 from "../public/web1.png";
@@ -29,8 +30,12 @@ export default function Home() {
           <nav className="py-10 -mb-12 flex justify-between dark:text-white">
             {/* <h1 className="font-burtons text-xl">developedbyed</h1> */}
             <div className="text-2xl flex justify-center gap-6 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillGithub />
-              <AiFillLinkedin />
+              <a href="https://github.com/habonn">
+                <AiFillGithub />
+              </a>
+              <a href="https://www.linkedin.com/in/teerut-bunyarat-94aa38247/">
+                <AiFillLinkedin />
+              </a>
               {/* <AiFillYoutube /> */}
             </div>
             <ul className="flex items-center">
@@ -62,7 +67,19 @@ export default function Home() {
               websites that help organizations address business challenges and
               meet their needs. My expertise lies within front-end web apps, and
               the main languages in my tech stack are JavaScript, React, and of
-              course HTML/CSS. Now you can see My <a href="#home" className="text-teal-500">Work Experience!!!</a>
+              course HTML/CSS. Now you can see My
+              {/* <a href="#experience" className="text-teal-500">Work Experience!!!</a> */}
+              <Link
+                to="experience"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={300}
+                className="text-teal-500 hover:cursor-pointer"
+              >
+                {" "}
+                Work Experience!!!
+              </Link>
             </p>
             {/* <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillTwitterCircle />
@@ -136,12 +153,12 @@ export default function Home() {
             </div>
           </div>
         </section> */}
-        <section className="py-10" id="home">
+        <section id="experience" className="py-10">
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Work Experience</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a web
-              developer, I've done remote work for
+              Since the beginning of my journey as a web developer, I've done
+              remote work for
               <span className="text-teal-500"> agencies </span>
               develop for <span className="text-teal-500">organizations </span>
               and collaborated with talanted people to create digital products
