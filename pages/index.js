@@ -1,9 +1,5 @@
 import Head from "next/head";
-import {
-  AiFillGithub,
-  AiFillLinkedin,
-  AiFillYoutube,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import deved from "../public/avatar.png";
@@ -55,22 +51,24 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10 py-10">
-            <h2 className="text-3xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
+            <h2 className="text-4xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-4xl">
               Teerut Bunyarat
             </h2>
-            <h3 className="text-lg py-2 dark:text-white md:text-3xl">
+            <h3 className="text-md py-2 dark:text-white md:text-md">
               Front-End Developer
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Freelancer providing services for programming and design content
-              needs. Join me down below and let's get cracking!
+            <p className="text-sm italic py-5 leading-12 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-sm">
+              Hi, I’m Peem! I’m a web developer. In a nutshell, I create websites that help
+              organizations address business challenges and meet their needs. My expertise lies
+              within front-end web apps, and the main languages in my tech stack
+              are JavaScript, React, and of course HTML/CSS.
             </p>
             {/* <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillTwitterCircle />
               <AiFillLinkedin />
               <AiFillYoutube />
             </div> */}
-            <div className="mx-auto  from-teal-500 rounded-full w-80 h-80 shadow-[80px_0px_0px_8px_rgba(0,0,0,0.3)] dark:shadow-[80px_0px_0px_8px_rgba(255,255,0)] relative overflow-hidden mt-5 md:h-96 md:w-96">
+            <div className="mx-auto  from-teal-500 rounded-full w-80 h-80 dark:shadow-[80px_0px_0px_8px_rgba(255,255,0)] relative overflow-hidden mt-5 md:h-93 md:w-93">
               <Image src={deved} layout="fill" objectFit="cover" />
             </div>
           </div>
