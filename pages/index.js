@@ -58,10 +58,11 @@ export default function Home() {
               Front-End Developer
             </h3>
             <p className="text-sm italic py-5 leading-12 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-sm">
-              Hi, I’m Peem! I’m a web developer. In a nutshell, I create websites that help
-              organizations address business challenges and meet their needs. My expertise lies
-              within front-end web apps, and the main languages in my tech stack
-              are JavaScript, React, and of course HTML/CSS.
+              Hi, I’m Peem! I’m a web developer. In a nutshell, I create
+              websites that help organizations address business challenges and
+              meet their needs. My expertise lies within front-end web apps, and
+              the main languages in my tech stack are JavaScript, React, and of
+              course HTML/CSS. Now you can see My <a href="#home" className="text-teal-500">Work Experience!!!</a>
             </p>
             {/* <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillTwitterCircle />
@@ -73,7 +74,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
+        {/* <section>
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
@@ -134,23 +135,132 @@ export default function Home() {
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
           </div>
-        </section>
-        <section className="py-10">
+        </section> */}
+        <section className="py-10" id="home">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">Work Experience</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
+              Since the beginning of my journey as a web
               developer, I've done remote work for
               <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
+              develop for <span className="text-teal-500">organizations </span>
               and collaborated with talanted people to create digital products
               for both business and consumer use.
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            {/* <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I offer from a wide range of services, including brand design,
               programming and teaching.
-            </p>
+            </p> */}
           </div>
+          <div className="antialiased text-gray-800">
+            <div className="relative container mx-auto px-6 flex flex-col space-y-8">
+              <div className="absolute z-0 w-2 h-full bg-white shadow-md inset-0 left-17 md:mx-auto md:right-0 md:left-0"></div>
+              <div className="relative z-10">
+                <div className="timeline-img">
+                  <Image
+                    src={consulting}
+                    // width={100}
+                    // height={100}
+                    // layout="fill"
+                  />
+                </div>
+                {/* <img
+                  src="https://images.pexels.com/photos/885880/pexels-photo-885880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=100"
+                  alt=""
+                  className="h-24 w-24 object-cover rounded-full shadow-md border-4 border-white"
+                /> */}
+                <div className="timeline-container">
+                  <div className="timeline-point" aria-hidden="true"></div>
+                  <div className="bg-white p-6  rounded-md shadow-md">
+                    <span className="font-bold text-teal-600 text-sm tracking-wide">
+                      Jan 26
+                    </span>
+                    <h1 className="text-2xl font-bold pt-1">
+                      An Amazing Travel
+                    </h1>
+                    <p className="pt-1">
+                      Hi, I’m Peem! I’m a web developer. In a nutshell, I create
+                      websites that help organizations address business
+                      challenges and meet their needs. My expertise lies within
+                      front-end web apps, and the main languages in my tech
+                      stack are JavaScript, React, and of course HTML/CSS.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="relative z-10">
+                <div className="timeline-img">
+                  <Image
+                    src={consulting}
+                    // width={100}
+                    // height={100}
+                    // layout="fill"
+                  />
+                </div>
+                {/* <img
+                  src="https://images.pexels.com/photos/885880/pexels-photo-885880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=100"
+                  alt=""
+                  className="h-24 w-24 object-cover rounded-full shadow-md border-4 border-white"
+                /> */}
+                <div className="timeline-container timeline-container-left">
+                  <div
+                    className="timeline-point timeline-pointer-left"
+                    aria-hidden="true"
+                  ></div>
+
+                  <div className="bg-white p-6  rounded-md shadow-md">
+                    <span className="font-bold text-teal-600 text-sm tracking-wide">
+                      Jan 26
+                    </span>
+                    <h1 className="text-2xl font-bold pt-1">
+                      An Amazing Travel
+                    </h1>
+                    <p className="pt-1">
+                      Hi, I’m Peem! I’m a web developer. In a nutshell, I create
+                      websites that help organizations address business
+                      challenges and meet their needs. My expertise lies within
+                      front-end web apps, and the main languages in my tech
+                      stack are JavaScript, React, and of course HTML/CSS.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="relative z-10">
+                <div className="timeline-img">
+                  <Image
+                    src={consulting}
+                    // width={100}
+                    // height={100}
+                    // layout="fill"
+                  />
+                </div>
+                {/* <img
+                  src="https://images.pexels.com/photos/885880/pexels-photo-885880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=100"
+                  alt=""
+                  className="h-24 w-24 object-cover rounded-full shadow-md border-4 border-white"
+                /> */}
+                <div className="timeline-container">
+                  <div className="timeline-point" aria-hidden="true"></div>
+                  <div className="bg-white p-6  rounded-md shadow-md">
+                    <span className="font-bold text-teal-600 text-sm tracking-wide">
+                      Jan 26
+                    </span>
+                    <h1 className="text-2xl font-bold pt-1">
+                      An Amazing Travel
+                    </h1>
+                    <p className="pt-1">
+                      Hi, I’m Peem! I’m a web developer. In a nutshell, I create
+                      websites that help organizations address business
+                      challenges and meet their needs. My expertise lies within
+                      front-end web apps, and the main languages in my tech
+                      stack are JavaScript, React, and of course HTML/CSS.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
               <Image
