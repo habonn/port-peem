@@ -1,5 +1,5 @@
 {
-  "homepage": "http://habonn.github.io/port-peem",
+  "homepage": "https://habonn.github.io/port-peem",
   "name": "app-next.js",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +22,6 @@
     "autoprefixer": "^10.4.12",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1",
-    "gh-pages": "^5.0.0",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8"
   }
