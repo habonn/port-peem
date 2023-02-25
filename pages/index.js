@@ -225,11 +225,10 @@ export default function Home() {
                 <div className="timeline-img">
                   <Image
                     src={metro}
-                    // width={10}
-                    // height={10}
-                    layout="fill"
-                    alt={"pic 2"}
-                    className="timeline-img"
+                    width={93}
+                    height={93}
+                    alt={"metro1"}
+                    className="rounded-full"
                   />
                 </div>
                 {/* <img
@@ -270,11 +269,10 @@ export default function Home() {
                 <div className="timeline-img">
                   <Image
                     src={goingjesse}
-                    // width={10}
-                    // height={10}
-                    layout="fill"
-                    alt={"goingjesse"}
-                    className="timeline-img-logo"
+                    width={93}
+                    height={93}
+                    alt={"going"}
+                    className="rounded-full"
                   />
                 </div>
                 {/* <img
@@ -311,11 +309,10 @@ export default function Home() {
                 <div className="timeline-img">
                   <Image
                     src={metro}
-                    // width={10}
-                    // height={10}
-                    layout="fill"
-                    alt={"metro 1"}
-                    className="timeline-img"
+                    width={93}
+                    height={93}
+                    alt={"metro-2"}
+                    className="rounded-full"
                   />
                 </div>
                 {/* <img
