@@ -266,10 +266,9 @@ export default function Home() {
                       with sharepoint.
                     </p>
                     <p className="pt-1">
-                      - Optimized the old code project and research for new
-                      features. Optimized the old project through the reduction
-                      of unnecessary calls to the back-end from sharepoint
-                      inturn reducing startup time.
+                      - Optimized the old project through the reduction of
+                      unnecessary calls to the back-end from sharepoint inturn
+                      reducing startup time.
                     </p>
                     <p className="pt-1">
                       - Research work with new microsoft product for supported
