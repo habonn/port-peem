@@ -212,11 +212,16 @@ export default function Home() {
                       Front-End Developer
                     </h3>
                     <p className="pt-1">
-                      Hi, I’m Peem! I’m a web developer. In a nutshell, I create
-                      websites that help organizations address business
-                      challenges and meet their needs. My expertise lies within
-                      front-end web apps, and the main languages in my tech
-                      stack are JavaScript, React, and of course HTML/CSS.
+                      - Developed backoffice web applications using reactjs,
+                      nextjs for use with users within banking organizations.
+                    </p>
+                    <p className="pt-1">
+                      - Optimized and supported on backoffice project to reduce
+                      problems.
+                    </p>
+                    <p className="pt-1">
+                      - Collaborated with the backend team to constuct &
+                      optimize various complex algorithms improving perfomance.
                     </p>
                   </div>
                 </div>
@@ -256,11 +261,19 @@ export default function Home() {
                       Front-End Developer
                     </h3>
                     <p className="pt-1">
-                      Hi, I’m Peem! I’m a web developer. In a nutshell, I create
-                      websites that help organizations address business
-                      challenges and meet their needs. My expertise lies within
-                      front-end web apps, and the main languages in my tech
-                      stack are JavaScript, React, and of course HTML/CSS.
+                      - Designed & developed to create a reservation web
+                      application for organizations using angularjs connected
+                      with sharepoint.
+                    </p>
+                    <p className="pt-1">
+                      - Optimized the old code project and research for new
+                      features. Optimized the old project through the reduction
+                      of unnecessary calls to the back-end from sharepoint
+                      inturn reducing startup time.
+                    </p>
+                    <p className="pt-1">
+                      - Research work with new microsoft product for supported
+                      organizations E.g. Share point, Viva, Power Apps, Power BI
                     </p>
                   </div>
                 </div>
@@ -296,11 +309,13 @@ export default function Home() {
                       Front-End Developer
                     </h3>
                     <p className="pt-1">
-                      Hi, I’m Peem! I’m a web developer. In a nutshell, I create
-                      websites that help organizations address business
-                      challenges and meet their needs. My expertise lies within
-                      front-end web apps, and the main languages in my tech
-                      stack are JavaScript, React, and of course HTML/CSS.
+                      - Designed and implemented a web-based application to
+                      provide KPI systems.
+                    </p>
+                    <p className="pt-1">
+                      - Creted new features, functionlity and capabilities on
+                      the KPI systems sites using crystal report with react
+                      component.
                     </p>
                   </div>
                 </div>
@@ -340,11 +355,23 @@ export default function Home() {
                       Front-End Developer
                     </h3>
                     <p className="pt-1">
-                      Hi, I’m Peem! I’m a web developer. In a nutshell, I create
-                      websites that help organizations address business
-                      challenges and meet their needs. My expertise lies within
-                      front-end web apps, and the main languages in my tech
-                      stack are JavaScript, React, and of course HTML/CSS.
+                      - Designed & developed an customer service application web
+                      and mobile for technician project for graduated with
+                      reactjs and react native.
+                    </p>
+                    <p className="pt-1">
+                      - Developed an interactive map for a customer service app
+                      project and show on features in web and mobile.
+                    </p>
+                    <p className="pt-1">
+                      - Designed front-end code using reactjs and material ui to
+                      created a responsive web application that works cross
+                      desktops, tablets and 20+ other device.
+                    </p>
+                    <p className="pt-1">
+                      - Assisted in developed a new project CRM of company in
+                      front-end with react and reseach problems with the
+                      systems.
                     </p>
                   </div>
                 </div>
