@@ -312,7 +312,7 @@ export default function Home() {
                       provide KPI systems.
                     </p>
                     <p className="pt-1">
-                      - Creted new features, functionlity and capabilities on
+                      - Created new features, functionlity and capabilities on
                       the KPI systems sites using crystal report with react
                       component.
                     </p>
@@ -351,7 +351,7 @@ export default function Home() {
                       </span>{" "}
                     </h1>
                     <h3 className="px-2 text-white bg-gradient-to-r from-blue-400 rounded">
-                      Front-End Developer
+                      Front-End Developer, Internship
                     </h3>
                     <p className="pt-1">
                       - Designed & developed an customer service application web
