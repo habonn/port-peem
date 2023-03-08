@@ -220,8 +220,8 @@ export default function Home() {
                       problems.
                     </p>
                     <p className="pt-1">
-                      - Collaborated with the backend team to constuct &
-                      optimize various complex algorithms improving perfomance.
+                      - Collaborated with the backend team to construct &
+                      optimize various complex algorithms improving performance.
                     </p>
                   </div>
                 </div>
