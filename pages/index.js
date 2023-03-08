@@ -105,26 +105,26 @@ export default function Home() {
               TECHNOLOGIES AND LANGUAGES
             </h3>
             <hr className="border-[#a9a9a9] mb-2 mt-0"></hr>
-            <ul class="text-left list-disc pl-8">
+            <ul class="text-left list-disc pl-8 dark:text-white">
               <li>
-                <span class="w-28 inline-block">Languages:</span>{" "}
+                <span class="w-28 inline-block dark:text-teal-500">Languages:</span>{" "}
                 <span>JavaScript, Node.js, Java, SQL, PHP, CSS, HTML</span>{" "}
               </li>
               <li>
-                <span class="w-28 inline-block">Frameworks:</span>{" "}
+                <span class="w-28 inline-block dark:text-teal-500">Frameworks:</span>{" "}
                 <span>
                   ReactJS, AngularJS, React-Native, NextJS, TailwindCSS,
                   Bootstrap, Ant-design, Material-UI
                 </span>{" "}
               </li>
               <li>
-                <span class="w-28 inline-block">Tools:</span>{" "}
+                <span class="w-28 inline-block dark:text-teal-500">Tools:</span>{" "}
                 <span>
                   Git, Docker, Zsh, GitHub, MobX, Jira, Sourcetree, Ansible{" "}
                 </span>{" "}
               </li>
               <li>
-                <span class="w-28 inline-block">Other:</span>{" "}
+                <span class="w-28 inline-block dark:text-teal-500">Other:</span>{" "}
                 <span>
                   Linux, AWS, GCP, Vercel, DigitalOcean, Heroku, Wordpress,
                   Microsoft products
@@ -195,8 +195,8 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white ">EDUCATION</h3>
             <hr className="border-[#a9a9a9] mb-2 mt-0"></hr>
             <ul class="text-left list-disc pl-8">
-              <li>
-                <strong> B.Sc. Information Technology</strong>,
+              <li className="dark:text-white">
+                <strong className="dark:text-teal-500"> B.Sc. Information Technology</strong>,
                 <span> Burapha University, TH. 2016-2020 (GPA 3.35)</span>{" "}
               </li>
             </ul>
