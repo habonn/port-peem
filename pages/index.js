@@ -99,10 +99,39 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* <section>
+        <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <h3 className="text-3xl py-1 dark:text-white ">
+              TECHNOLOGIES AND LANGUAGES
+            </h3>
+            <hr className="border-[#a9a9a9] mb-2 mt-0"></hr>
+            <ul class="text-left list-disc pl-8">
+              <li>
+                <span class="w-28 inline-block">Languages:</span>{" "}
+                <span>JavaScript, Node.js, Java, SQL, PHP, CSS, HTML</span>{" "}
+              </li>
+              <li>
+                <span class="w-28 inline-block">Frameworks:</span>{" "}
+                <span>
+                  ReactJS, AngularJS, React-Native, NextJS, TailwindCSS,
+                  Bootstrap, Ant-design, Material-UI
+                </span>{" "}
+              </li>
+              <li>
+                <span class="w-28 inline-block">Tools:</span>{" "}
+                <span>
+                  Git, Docker, Zsh, GitHub, MobX, Jira, Sourcetree, Ansible{" "}
+                </span>{" "}
+              </li>
+              <li>
+                <span class="w-28 inline-block">Other:</span>{" "}
+                <span>
+                  Linux, AWS, GCP, Vercel, DigitalOcean, Heroku, Wordpress,
+                  Microsoft products
+                </span>{" "}
+              </li>
+            </ul>
+            {/* <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
               <span className="text-teal-500"> agencies </span>
@@ -158,12 +187,25 @@ export default function Home() {
               <p className="text-gray-800 py-1">Illustrator</p>
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Indesign</p>
-            </div>
+            </div> */}
           </div>
-        </section> */}
+        </section>
+        <section>
+          <div>
+            <h3 className="text-3xl py-1 dark:text-white ">EDUCATION</h3>
+            <hr className="border-[#a9a9a9] mb-2 mt-0"></hr>
+            <ul class="text-left list-disc pl-8">
+              <li>
+                <strong> B.Sc. Information Technology</strong>,
+                <span> Burapha University, TH. 2016-2020 (GPA 3.35)</span>{" "}
+              </li>
+            </ul>
+          </div>
+        </section>
         <section id="experience" className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Work Experience</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">WORK EXPERIENCE</h3>
+            <hr className="border-[#a9a9a9] mb-2 mt-0"></hr>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a web developer, I’ve done
               remote work for
@@ -211,18 +253,21 @@ export default function Home() {
                     <h3 className="px-2 text-white bg-gradient-to-r from-blue-400 rounded">
                       Front-End Developer
                     </h3>
-                    <p className="pt-1">
-                      - Developed backoffice web applications using reactjs,
-                      nextjs for use with users within banking organizations.
-                    </p>
-                    <p className="pt-1">
-                      - Optimized and supported on backoffice project to reduce
-                      problems.
-                    </p>
-                    <p className="pt-1">
-                      - Collaborated with the backend team to construct &
-                      optimize various complex algorithms improving performance.
-                    </p>
+                    <ul class="text-left list-disc pl-8">
+                      <li>
+                        Developed backoffice web applications using reactjs,
+                        nextjs for use with users within banking organizations.
+                      </li>
+                      <li>
+                        Optimized and supported on backoffice project to reduce
+                        problems.
+                      </li>
+                      <li>
+                        Collaborated with the backend team to construct &
+                        optimize various complex algorithms improving
+                        performance.
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -260,20 +305,23 @@ export default function Home() {
                     <h3 className="px-2 text-white bg-gradient-to-r from-blue-400 rounded">
                       Front-End Developer
                     </h3>
-                    <p className="pt-1">
-                      - Designed & developed to create a reservation web
-                      application for organizations using angularjs connected
-                      with sharepoint.
-                    </p>
-                    <p className="pt-1">
-                      - Optimized the old project through the reduction of
-                      unnecessary calls to the back-end from sharepoint inturn
-                      reducing startup time.
-                    </p>
-                    <p className="pt-1">
-                      - Research work with new microsoft product for supported
-                      organizations E.g. Share point, Viva, Power Apps, Power BI
-                    </p>
+                    <ul class="text-left list-disc pl-8">
+                      <li>
+                        Designed & developed to create a reservation web
+                        application for organizations using angularjs connected
+                        with sharepoint.
+                      </li>
+                      <li>
+                        Optimized the old project through the reduction of
+                        unnecessary calls to the back-end from sharepoint inturn
+                        reducing startup time.
+                      </li>
+                      <li>
+                        Research work with new microsoft product for supported
+                        organizations E.g. Share point, Viva, Power Apps, Power
+                        BI
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -307,15 +355,17 @@ export default function Home() {
                     <h3 className="px-2 text-white bg-gradient-to-r from-blue-400 rounded">
                       Front-End Developer
                     </h3>
-                    <p className="pt-1">
-                      - Designed and implemented a web-based application to
-                      provide KPI systems.
-                    </p>
-                    <p className="pt-1">
-                      - Created new features, functionality and capabilities on
-                      the KPI systems sites using crystal report with react
-                      component.
-                    </p>
+                    <ul class="text-left list-disc pl-8">
+                      <li>
+                        Designed and implemented a web-based application to
+                        provide KPI systems.
+                      </li>
+                      <li>
+                        Created new features, functionality and capabilities on
+                        the KPI systems sites using crystal report with react
+                        component.
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -353,25 +403,27 @@ export default function Home() {
                     <h3 className="px-2 text-white bg-gradient-to-r from-blue-400 rounded">
                       Front-End Developer, Internship
                     </h3>
-                    <p className="pt-1">
-                      - Designed & developed an customer service application web
-                      and mobile for technician project for graduated with
-                      reactjs and react native.
-                    </p>
-                    <p className="pt-1">
-                      - Developed an interactive map for a customer service app
-                      project and show on features in web and mobile.
-                    </p>
-                    <p className="pt-1">
-                      - Designed front-end code using reactjs and material ui to
-                      created a responsive web application that works cross
-                      desktops, tablets and 20+ other device.
-                    </p>
-                    <p className="pt-1">
-                      - Assisted in developed a new project CRM of company in
-                      front-end with react and research problems with the
-                      systems.
-                    </p>
+                    <ul class="text-left list-disc pl-8">
+                      <li>
+                        Designed & developed an customer service application web
+                        and mobile for technician project for graduated with
+                        reactjs and react native.
+                      </li>
+                      <li>
+                        Developed an interactive map for a customer service app
+                        project and show on features in web and mobile.
+                      </li>
+                      <li>
+                        Designed front-end code using reactjs and material ui to
+                        created a responsive web application that works cross
+                        desktops, tablets and 20+ other device.
+                      </li>
+                      <li>
+                        Assisted in developed a new project CRM of company in
+                        front-end with react and research problems with the
+                        systems.
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
