@@ -51,8 +51,8 @@ export default function Home() {
               websites that help organizations address business challenges and
               meet their needs. My expertise lies within front-end web apps, and
               the main languages in my tech stack are JavaScript, React, and of
-              course HTML/CSS. Now you can see My
-              <Link
+              course HTML/CSS.
+              {/* <Link
                 to="experience"
                 spy={true}
                 smooth={true}
@@ -62,8 +62,46 @@ export default function Home() {
               >
                 {" "}
                 Work Experience!!!
-              </Link>
+              </Link> */}
             </p>
+            <div></div>
+            <div className="text-sm italic flex justify-center gap-4 py-1 text-teal-400 dark:text-white">
+              <Link
+                to="tech"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={300}
+                className="text-teal-500 hover:cursor-pointer"
+              >
+                {" "}
+                Technology
+              </Link>
+              <span>|</span>
+              <Link
+                to="education"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={300}
+                className="text-teal-500 hover:cursor-pointer"
+              >
+                {" "}
+                Eduication
+              </Link>
+              <span>|</span>
+              <Link
+                to="experience"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={300}
+                className="text-teal-500 hover:cursor-pointer"
+              >
+                {" "}
+                Work Experience
+              </Link>
+            </div>
             <div className="xs:mx-auto -ml-20 from-teal-500 rounded-full w-80 h-80 dark:shadow-[80px_0px_0px_8px_rgba(255,255,0)] relative overflow-hidden mt-5 md:h-93 md:w-93">
               <Image
                 src={deved}
@@ -74,7 +112,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="py-10">
+        <section id="tech" className="py-10">
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">
               TECHNOLOGIES AND LANGUAGES
@@ -82,11 +120,15 @@ export default function Home() {
             <hr className="border-[#a9a9a9] mb-2 mt-0"></hr>
             <ul class="text-left list-disc pl-8 dark:text-white">
               <li>
-                <span class="w-28 inline-block dark:text-teal-500">Languages:</span>{" "}
+                <span class="w-28 inline-block dark:text-teal-500">
+                  Languages:
+                </span>{" "}
                 <span>JavaScript, Node.js, Java, SQL, PHP, CSS, HTML</span>{" "}
               </li>
               <li>
-                <span class="w-28 inline-block dark:text-teal-500">Frameworks:</span>{" "}
+                <span class="w-28 inline-block dark:text-teal-500">
+                  Frameworks:
+                </span>{" "}
                 <span>
                   ReactJS, AngularJS, React-Native, NextJS, TailwindCSS,
                   Bootstrap, Ant-design, Material-UI
@@ -108,14 +150,17 @@ export default function Home() {
             </ul>
           </div>
         </section>
-        <section>
+        <section id="education">
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">EDUCATION</h3>
             <hr className="border-[#a9a9a9] mb-2 mt-0"></hr>
             <ul class="text-left list-disc pl-8">
               <li className="dark:text-white">
-                <strong className="dark:text-teal-500"> B.Sc. Information Technology</strong>,
-                <span> Burapha University, TH. 2016-2020 (GPA 3.35)</span>{" "}
+                <strong className="dark:text-teal-500">
+                  {" "}
+                  B.Sc. Information Technology
+                </strong>
+                ,<span> Burapha University, TH. 2016-2020 (GPA 3.35)</span>{" "}
               </li>
             </ul>
           </div>
