@@ -369,7 +369,7 @@ export default function Home() {
                     </p>
                     <p className="pt-1">
                       - Assisted in developed a new project CRM of company in
-                      front-end with react and reseach problems with the
+                      front-end with react and research problems with the
                       systems.
                     </p>
                   </div>
