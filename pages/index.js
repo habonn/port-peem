@@ -87,7 +87,7 @@ export default function Home() {
                 className="text-teal-500 hover:cursor-pointer"
               >
                 {" "}
-                Eduication
+                Education
               </Link>
               <span>|</span>
               <Link
@@ -99,7 +99,7 @@ export default function Home() {
                 className="text-teal-500 hover:cursor-pointer"
               >
                 {" "}
-                Work Experience
+                Experience
               </Link>
             </div>
             <div className="xs:mx-auto -ml-20 from-teal-500 rounded-full w-80 h-80 dark:shadow-[80px_0px_0px_8px_rgba(255,255,0)] relative overflow-hidden mt-5 md:h-93 md:w-93">
